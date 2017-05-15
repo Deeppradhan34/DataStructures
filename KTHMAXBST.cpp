@@ -10,7 +10,7 @@ class node
     node *right;
     node *parent;
 };
-//node *q[50];
+
 class bst
 {
 
