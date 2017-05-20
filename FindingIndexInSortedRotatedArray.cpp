@@ -20,7 +20,6 @@ int main(){
 int getIndex(int a[], int n, int searchNum){
 	
 	int pivot = partition(a,0,n-1);
-//	cout<<pivot;
 	int low = 0;
 	int high = n-1;
 	if(searchNum >= a[0]){
